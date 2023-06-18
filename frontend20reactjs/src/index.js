@@ -1,12 +1,12 @@
 import React from 'react';
-import ReactDOM from 'react-dom/client';
+import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 
 
 ReactDOM.reder(
   <React.StrictMode>
-    <App/>
+    <App texto={{chamada:'Danki',chamada2:'Code'}}/>    
   </React.StrictMode>,
    document.getElementById('root')
 );

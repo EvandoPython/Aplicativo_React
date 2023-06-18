@@ -1,10 +1,12 @@
 
 import './App.css';
+import Header from './Header';
 
-function App() {
+
+function App(props) {
   return (
-    <div class="App">
-        <h2>Ola Mundo</h2>
+    <div className="App">
+        <Header />
     </div>
   );
 }
